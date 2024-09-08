@@ -96,7 +96,8 @@ const LoginPage = () => {
             <button
               onClick={() =>
                 signIn("google", {
-                  callbackUrl: "http://localhost:3000/dashboard",
+                  callbackUrl:
+                    "https://nextjs-authentication-eosin.vercel.app/dashboard",
                 })
               }
               className="btn btn-circle "
@@ -112,7 +113,8 @@ const LoginPage = () => {
               className="btn btn-circle"
               onClick={() =>
                 signIn("github", {
-                  callbackUrl: "http://localhost:3000/dashboard",
+                  callbackUrl:
+                    "https://nextjs-authentication-eosin.vercel.app/dashboard",
                 })
               }
             >
